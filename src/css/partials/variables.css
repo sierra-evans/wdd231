@@ -59,9 +59,11 @@
   --bs-font-serif: "Times New Roman", Times, serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0));
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
   --bs-body-font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -86,4 +88,5 @@
   --alert-caution: #ed7e31;
   --alert-information: #2451a9;
   --alert-danger: #720f04;
+  --icon-color: black;
 }
